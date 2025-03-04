@@ -18,8 +18,8 @@ public class login {
           String password = Scanner.nextLine();
 
           // Validasi username dan password
-          String usernameValid = "Admin302"; // Ganti dengan 3-digit NIM terakhir Anda
-          String passwordValid = "Password302"; // Ganti dengan 3-digit NIM terakhir Anda
+          String usernameValid = "Admin302"; 
+          String passwordValid = "Password302"; 
 
           if (username.equals(usernameValid) && password.equals(passwordValid)) {
               System.out.println("Login Admin berhasil!");
@@ -34,8 +34,8 @@ public class login {
           String nim = Scanner.nextLine();
 
           // Validasi nama dan NIM
-          String namaValid = "Syamsul falah imran"; // Ganti dengan nama Anda
-          String nimValid = "202410370110302"; // Ganti dengan NIM Anda
+          String namaValid = "Syamsul falah imran"; 
+          String nimValid = "202410370110302"; 
 
           if (nama.equals(namaValid) && nim.equals(nimValid)) {
               System.out.println("Login Mahasiswa berhasil!");
